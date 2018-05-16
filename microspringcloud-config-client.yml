@@ -1,13 +1,16 @@
-spring:
+﻿spring:
   profiles:
     active: dev
 
 ---
 spring:
   profiles: dev
+
 server:
   port: 8822
-
+person:
+  name: lmx
+  password: 110522
 ---
 spring:
   profiles: prod
