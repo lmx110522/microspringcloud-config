@@ -7,7 +7,7 @@ eureka:
   instance:
     prefer-ip-address: true
     instance-id: product-provide7001.com
-
+    
 info:
   message: "商品服务接口"
 
@@ -21,4 +21,8 @@ spring:
     url: jdbc:mysql://localhost:3306/test1
     username: root
     password: root
-
+  rabbitmq:
+    addresses: 192.168.13.131
+    username: guest
+    password: guest
+    port: 5672
