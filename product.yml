@@ -1,0 +1,26 @@
+server:
+  port: 8090
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: product-provide7001.com
+
+info:
+  message: "商品服务接口"
+
+spring:
+  application:
+    name: product-provide
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test1
+    username: root
+    password: root
+
