@@ -9,3 +9,4 @@ eureka:
     prefer-ip-address: true
 info: 
   message: "网关"
+  profiles: dev
