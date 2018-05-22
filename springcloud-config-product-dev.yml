@@ -12,6 +12,9 @@ info:
   message: "商品服务接口111"
 
 spring:
+  application:
+    name:
+      product-config
   jpa:
     show-sql: true
     hibernate:
@@ -28,3 +31,5 @@ spring:
     port: 5672
 env:
   test333
+  
+        
