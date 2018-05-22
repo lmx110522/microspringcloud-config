@@ -26,6 +26,7 @@ spring:
     username: guest
     password: guest
     port: 5672
+  profiles: dev
 env:
   test333
   
